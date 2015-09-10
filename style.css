@@ -10,3 +10,50 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, responsive-layout, one-column, custom-colors, custom-header, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, one-column, theme-options
 Text Domain: parallaxbeard
 */
+
+body {
+	border: 15px solid #fff;
+}
+
+.sticky-navigation {
+	background: transparent !important;
+}
+
+.navbar {
+	margin-top: 20px;
+}
+
+#stamp-navigation > ul > li  > a{
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 0.3em;
+	padding: 26px 10px;
+}
+
+.navbar.scroll {
+	margin-top: 0;
+}
+
+.scroll #stamp-navigation > ul > li  > a {
+	color: #454545;
+}
+
+#stamp-navigation > ul > li  > a:hover {
+	color: #008ed6;
+}
+
+.navbar .background_child {
+	background: #fff;
+	width: 0px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	z-index: -1;
+	opacity: 0;
+}
