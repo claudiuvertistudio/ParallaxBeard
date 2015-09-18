@@ -8,7 +8,7 @@ Version: 1.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, responsive-layout, one-column, custom-colors, custom-header, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, one-column, theme-options
-Text Domain: parallaxbeard
+Text Domain:  parallax-one
 */
 
 body {
@@ -56,4 +56,36 @@ body {
 	transition: all 0.5s;
 	z-index: -1;
 	opacity: 0;
+}
+
+.footer{
+	overflow: hidden;
+	position: relative;
+	padding: 0 !important;
+}
+
+.footer.grey-bg{
+	background: #454545;
+    color: #fff;
+}
+
+.footer .transparent-text-dark {
+    color: #fff;
+}
+
+.footer .footer-links li a {
+    color: #fff;
+}
+
+.content-wrap{
+    z-index: 4;
+    position: relative;
+}
+
+.footer_parallax{
+	margin: 40px 0;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    z-index: 1;
 }
