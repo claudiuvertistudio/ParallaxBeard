@@ -127,6 +127,14 @@ body {
 	border-bottom: 1px solid #eaeaea;
 }
 
+.post-list article.sticky{
+	border-bottom: 1px solid #008ed6;
+}
+
+.post-list article.sticky:hover{
+	border-bottom: 1px solid #008ed6;
+}
+
 .post-list article h1.entry-title,
 .post-list article .entry-content{
 	padding: 0 15px;
@@ -138,4 +146,8 @@ body {
 
 .post-list article .colored-line-left{
 	margin: 0 15px;
+}
+
+.navbar {
+    margin-top: 15px;
 }
