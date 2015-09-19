@@ -89,3 +89,22 @@ body {
     width: 100%;
     z-index: 1;
 }
+
+.index-post-list .icon-container{
+    padding: 0;
+    background: #eaeaea;
+    text-align: center;
+}
+
+.index-post-list .icon-container img{
+	display: table;
+    margin: 0 auto;
+}
+
+.index-post-list .info {
+    padding-right: 0;
+}
+
+.index-post-list h1.entry-title {
+    margin-top: 0;
+}
