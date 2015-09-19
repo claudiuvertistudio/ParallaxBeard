@@ -102,9 +102,40 @@ body {
 }
 
 .index-post-list .info {
-    padding-right: 0;
+    padding: 15px;
+}
+
+.index-post-list .info .entry-content,
+.index-post-list .info h1.entry-title{
+	padding: 0;
+}
+
+.index-post-list .info .colored-line-left{
+	margin: 0;
 }
 
 .index-post-list h1.entry-title {
     margin-top: 0;
+}
+
+.post-list article{
+	border-bottom: 1px solid #eaeaea;
+	padding: 0;
+}
+
+.post-list article:hover{
+	border-bottom: 1px solid #eaeaea;
+}
+
+.post-list article h1.entry-title,
+.post-list article .entry-content{
+	padding: 0 15px;
+}
+
+.post-list article .entry-content{
+	padding-bottom: 15px;
+}
+
+.post-list article .colored-line-left{
+	margin: 0 15px;
 }
